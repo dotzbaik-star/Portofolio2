@@ -10,15 +10,15 @@ export default function About() {
       <div className="grid lg:grid-cols-2 gap-6 sm:gap-8">
         <div className="bg-[var(--surface)] border-4 border-brutal rounded-xl brutal-shadow p-5 sm:p-7 lg:p-9 reveal reveal-d2">
           <p className="font-bold text-xs sm:text-sm leading-relaxed mb-4 sm:mb-5" style={{ color: 'var(--text-sec)' }}>
-            Halo, saya <strong style={{ color: 'var(--text)' }}>WannOfficial</strong>, 18 tahun dari Aceh. Sehari-hari saya berkutat dengan kode — bikin bot Telegram, merancang backend, dan mengotomasi hal-hal yang idealnya memang diotomasi. Saya juga jual beli akun Telegram serta ngurus beberapa server buat bot-bot yang udah running di production.
+            Saya <strong style={{ color: 'var(--text)' }}>WannOfficial</strong>, seorang developer dari Aceh. Fokus utama saya adalah pengembangan bot Telegram, backend, dan automation — mengubah pekerjaan repetitif menjadi sistem yang berjalan otomatis. Selain itu, saya juga aktif di jual-beli akun Telegram dan mengelola server untuk bot-bot yang berjalan di production.
           </p>
           <p className="font-bold text-xs sm:text-sm leading-relaxed" style={{ color: 'var(--text-sec)' }}>
-            Saya <strong style={{ color: 'var(--text)' }}>self-taught</strong>, belajar dari dokumentasi, trial-error, dan kadang dari error yang bikin gregetan. Tinggal di Aceh, kerja remote, dan nggak pernah puas sama kode yang sudah jadi — selalu ada aja yang bisa dibikin lebih efisien.
+            Saya <strong style={{ color: 'var(--text)' }}>self-taught</strong> — belajar dari dokumentasi, trial & error, dan pengalaman langsung menangani proyek. Berbasis di Aceh, bekerja secara remote, dan selalu berusaha menulis kode yang lebih efisien dari sebelumnya.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-3 sm:gap-4">
           <div className="bg-[#8A2BE2] text-white border-4 border-black rounded-xl brutal-shadow p-4 sm:p-6 text-center brutal-card reveal reveal-d3">
-            <div className="text-xl sm:text-2xl lg:text-3xl font-black">50+</div>
+            <div className="text-xl sm:text-2xl lg:text-3xl font-black">15+</div>
             <div className="text-[9px] sm:text-[10px] font-bold uppercase mt-1.5 tracking-wider"><i className="fas fa-robot mr-1"></i>Bot Dibikin</div>
           </div>
           <div className="bg-[#00D26A] border-4 border-black rounded-xl brutal-shadow p-4 sm:p-6 text-center brutal-card reveal reveal-d3">
@@ -27,7 +27,7 @@ export default function About() {
           </div>
           <div className="bg-[#FF6B6B] text-white border-4 border-black rounded-xl brutal-shadow p-4 sm:p-6 text-center brutal-card reveal reveal-d4">
             <div className="text-xl sm:text-2xl lg:text-3xl font-black">∞</div>
-            <div className="text-[9px] sm:text-[10px] font-bold uppercase mt-1.5 tracking-wider"><i className="fas fa-sync mr-1"></i>Refactoring</div>
+            <div className="text-[9px] sm:text-[10px] font-bold uppercase mt-1.5 tracking-wider"><i className="fas fa-sync mr-1"></i>Vibecoding</div>
           </div>
           <div className="bg-[#FFD93D] border-4 border-black rounded-xl brutal-shadow p-4 sm:p-6 text-center brutal-card reveal reveal-d4">
             <div className="text-xl sm:text-2xl lg:text-3xl font-black">5</div>

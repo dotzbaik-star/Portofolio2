@@ -53,7 +53,7 @@ export default function Projects() {
         {projects.map((p, i) => (
           <div
             key={i}
-            className={`bg-[var(--surface)] border-4 border-black rounded-xl brutal-shadow p-4 sm:p-5 brutal-card reveal ${p.delay}`}
+            className={`bg-[var(--surface)] border-4 border-black rounded-xl brutal-shadow p-4 sm:p-5 brutal-card card-glow reveal ${p.delay}`}
           >
             <div className="flex items-start gap-3 sm:gap-4">
               <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl border-4 border-black bg-[#8A2BE2] flex items-center justify-center text-white text-base sm:text-lg shrink-0 brutal-shadow-sm">

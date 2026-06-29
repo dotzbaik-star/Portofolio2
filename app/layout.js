@@ -30,7 +30,10 @@ export default function RootLayout({ children }) {
           `
         }} />
       </head>
-      <body>{children}</body>
+      <body>
+        <div className="fixed inset-0 pointer-events-none bg-grid" />
+        {children}
+      </body>
     </html>
   )
 }

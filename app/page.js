@@ -6,7 +6,7 @@ import Terminal from '@/components/Terminal'
 import MarqueeSection from '@/components/MarqueeSection'
 import About from '@/components/About'
 import TechStack from '@/components/TechStack'
-import Achievements from '@/components/Achievements'
+
 import Projects from '@/components/Projects'
 import Donation from '@/components/Donation'
 import Contact from '@/components/Contact'
@@ -57,7 +57,6 @@ export default function Home() {
         <MarqueeSection />
         <About />
         <TechStack />
-        <Achievements />
         <Projects />
         <Donation />
         <Contact />

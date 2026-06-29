@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="text-sm sm:text-base font-black bg-black text-white px-4 sm:px-5 py-2 rounded-xl border-4 border-black brutal-shadow inline-block mb-3 sm:mb-4 pulse-glow">
         <i className="fas fa-terminal mr-1.5"></i>WannOfficial
       </div>
-      <p className="font-bold text-[10px] sm:text-xs" style={{ color: 'var(--text-muted)' }}>Dibikin dengan kopi dan kode — 2025</p>
+      <p className="font-bold text-[10px] sm:text-xs" style={{ color: 'var(--text-muted)' }}>&copy; WannOfficial &mdash; Since 2023</p>
     </footer>
   )
 }

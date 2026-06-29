@@ -1,50 +1,44 @@
 const projects = [
   {
-    icon: 'fas fa-shield-halved',
-    iconColor: '#8A2BE2',
-    bg: 'var(--surface)',
-    textColor: 'var(--text-sec)',
-    headingColor: 'var(--text)',
-    title: 'Group Manager',
-    desc: 'Bot buat manajemen grup Telegram — anti-spam, welcome message, filter otomatis, dan moderasi.',
-    tags: [
-      { label: 'Pyrogram', bg: '#8A2BE2', textWhite: true },
-      { label: 'MongoDB', bg: '#00D26A', textWhite: false },
-      { label: 'Redis', bg: '#FFD93D', textWhite: false },
-    ],
+    icon: 'fas fa-bullhorn',
+    title: 'Bot Automasi Promosi',
+    desc: 'Bot userbot promosi berskala besar berbasis Python, Pyrogram & Redis. AutoBroadcast 24 jam, auto reply WTB, auto reply chat private, payment gateway sewa, sanggup menampung ratusan userbot — sudah dipakai 200-300 userbot aktif promosi.',
+    tags: ['Python', 'Pyrogram', 'Redis'],
+    link: 'https://t.me/JasebXBot',
     delay: 'reveal-d2',
   },
   {
-    icon: 'fas fa-cart-shopping',
-    iconColor: '#fff',
-    bg: '#8A2BE2',
-    textColor: 'rgba(255,255,255,0.8)',
-    headingColor: '#fff',
-    title: 'E-Commerce Bot',
-    desc: 'Bot Telegram buat toko online — keranjang, pembayaran otomatis, dan tracking pesanan.',
-    tags: [
-      { label: 'Telethon', bg: '#fff', textWhite: false },
-      { label: 'MySQL', bg: '#FFD93D', textWhite: false },
-      { label: 'Node.js', bg: '#00D26A', textWhite: false },
-    ],
+    icon: 'fas fa-store',
+    title: 'Bot Jual Beli Akun',
+    desc: 'Platform jual beli akun Telegram dengan payment gateway otomatis. Bot skala besar — sudah di /start oleh 15K+ user dengan volume transaksi tinggi.',
+    tags: ['Python', 'Pyrogram', 'Redis'],
+    link: 'https://t.me/NokosID_UBOT',
     delay: 'reveal-d3',
   },
   {
-    icon: 'fas fa-arrow-right-arrow-left',
-    iconColor: '#000',
-    bg: '#FFD93D',
-    textColor: '#4a4a4a',
-    headingColor: '#000',
-    title: 'Auto Forward',
-    desc: 'Bot otomasi forward pesan antar grup/channel dengan filter kata kunci dan jadwal.',
-    tags: [
-      { label: 'Pyrogram', bg: '#8A2BE2', textWhite: true },
-      { label: 'SQLite', bg: '#fff', textWhite: false },
-      { label: 'AWS', bg: '#00D26A', textWhite: false },
-    ],
+    icon: 'fas fa-address-book',
+    title: 'Bot Manage Akun',
+    desc: 'Solusi manajemen banyak akun Telegram dalam satu bot. Fitur: clear chat, get OTP, ganti 2FA, join grup, kick device, dll. Sistem sewa slot dengan payment gateway — 400+ akun tersimpan.',
+    tags: ['Python', 'Pyrogram', 'Redis'],
+    link: 'https://t.me/ManageAkunBot',
     delay: 'reveal-d4',
   },
+  {
+    icon: 'fas fa-search',
+    title: 'Bot Cek ID & Tahun',
+    desc: 'Cek ID akun/group/channel Telegram, prediksi tahun pembuatan akun, dan detail lainnya. Gratis — sudah dipakai 5000+ user. Berbasis Python, Pyrogram & MongoDB.',
+    tags: ['Python', 'Pyrogram', 'MongoDB'],
+    link: 'https://t.me/CekIDinBot',
+    delay: 'reveal-d2',
+  },
 ]
+
+const tagColors = {
+  'Python': 'bg-[#3776AB] text-white',
+  'Pyrogram': 'bg-[#8A2BE2] text-white',
+  'Redis': 'bg-[#DC382D] text-white',
+  'MongoDB': 'bg-[#00D26A] text-black',
+}
 
 export default function Projects() {
   return (
@@ -53,28 +47,40 @@ export default function Projects() {
         <i className="fas fa-code-branch text-[#FF6B6B] mr-2 sm:mr-3"></i>Proyek
       </h2>
       <p className="text-center font-bold text-[10px] sm:text-xs max-w-lg mx-auto mb-6 sm:mb-10 reveal reveal-d1 uppercase tracking-widest" style={{ color: 'var(--text-muted)' }}>
-        Bot Telegram yang pernah dibikin (dan masih jalan)
+        Bot Telegram skala besar & kecil yang saya kembangkan
       </p>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+      <div className="grid sm:grid-cols-2 gap-4 sm:gap-5">
         {projects.map((p, i) => (
           <div
             key={i}
-            className={`border-4 border-black rounded-xl brutal-shadow p-5 sm:p-7 brutal-card reveal ${p.delay}`}
-            style={{ background: p.bg, color: p.textColor, borderColor: '#000' }}
+            className={`bg-[var(--surface)] border-4 border-black rounded-xl brutal-shadow p-4 sm:p-5 brutal-card reveal ${p.delay}`}
           >
-            <i className={`${p.icon} text-3xl sm:text-4xl mb-3 sm:mb-4`} style={{ color: p.iconColor }}></i>
-            <h3 className="text-sm sm:text-base font-black uppercase tracking-tight mb-1.5 sm:mb-2" style={{ color: p.headingColor }}>{p.title}</h3>
-            <p className="font-bold text-[11px] sm:text-xs leading-relaxed" style={{ color: p.textColor }}>{p.desc}</p>
-            <div className="flex flex-wrap gap-1.5 sm:gap-2 mt-4 sm:mt-5">
-              {p.tags.map((t, ti) => (
-                <span
-                  key={ti}
-                  className={`border-2 border-black rounded-lg px-2 sm:px-3 py-1 text-[9px] sm:text-[10px] font-bold ${t.textWhite ? 'text-white' : ''}`}
-                  style={{ background: t.bg }}
+            <div className="flex items-start gap-3 sm:gap-4">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl border-4 border-black bg-[#8A2BE2] flex items-center justify-center text-white text-base sm:text-lg shrink-0 brutal-shadow-sm">
+                <i className={p.icon}></i>
+              </div>
+              <div className="min-w-0 flex-1">
+                <h3 className="text-sm sm:text-base font-black uppercase tracking-tight mb-1" style={{ color: 'var(--text)' }}>{p.title}</h3>
+                <p className="font-bold text-[10px] sm:text-xs leading-relaxed" style={{ color: 'var(--text-sec)' }}>{p.desc}</p>
+                <div className="flex flex-wrap gap-1.5 mt-3">
+                  {p.tags.map((t, ti) => (
+                    <span
+                      key={ti}
+                      className={`border-2 border-black rounded-lg px-2 sm:px-2.5 py-0.5 text-[8px] sm:text-[9px] font-bold ${tagColors[t] || 'bg-gray-200 text-black'}`}
+                    >
+                      {t}
+                    </span>
+                  ))}
+                </div>
+                <a
+                  href={p.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 mt-3 font-bold text-[8px] sm:text-[9px] uppercase bg-black text-white border-2 border-black rounded-lg px-3 py-1.5 brutal-shadow-sm brutal-btn"
                 >
-                  {t.label}
-                </span>
-              ))}
+                  <i className="fab fa-telegram-plane"></i> Go to Bot
+                </a>
+              </div>
             </div>
           </div>
         ))}

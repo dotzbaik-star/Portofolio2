@@ -37,7 +37,7 @@ export default function Hero() {
           <span className="inline-block bg-[#00D26A] border-4 border-black rounded-xl px-4 sm:px-5 py-1.5 sm:py-2 font-bold text-[10px] sm:text-xs uppercase brutal-shadow-sm float-loop" style={{ animationDelay: '0.3s' }}>
             <i className="fas fa-cake-candles mr-1.5"></i>18yo
           </span>
-          <span className="inline-block bg-black text-white border-4 border-black rounded-xl px-4 sm:px-5 py-1.5 sm:py-2 font-bold text-[10px] sm:text-xs uppercase brutal-shadow-sm aceh-wobble">
+          <span className="inline-block bg-[#FF6B35] text-white border-4 border-black rounded-xl px-4 sm:px-5 py-1.5 sm:py-2 font-bold text-[10px] sm:text-xs uppercase brutal-shadow-sm aceh-wobble">
             <i className="fas fa-map-pin mr-1.5"></i>Aceh
           </span>
           <span className="inline-block bg-[#FF6B6B] text-white border-4 border-black rounded-xl px-4 sm:px-5 py-1.5 sm:py-2 font-bold text-[10px] sm:text-xs uppercase brutal-shadow-sm float-loop" style={{ animationDelay: '0.5s' }}>

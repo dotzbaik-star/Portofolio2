@@ -5,6 +5,9 @@ const projects = [
     desc: 'Bot userbot promosi berskala besar berbasis Python, Pyrogram & Redis. AutoBroadcast 24 jam, auto reply WTB, auto reply chat private, payment gateway sewa, sanggup menampung ratusan userbot — sudah dipakai 200-300 userbot aktif promosi.',
     tags: ['Python', 'Pyrogram', 'Redis'],
     link: 'https://t.me/JasebXBot',
+    bg: '#1a1a2e',
+    text: '#e0e0e0',
+    heading: '#fff',
     delay: 'reveal-d2',
   },
   {
@@ -13,6 +16,9 @@ const projects = [
     desc: 'Platform jual beli akun Telegram dengan payment gateway otomatis. Bot skala besar — sudah di /start oleh 15K+ user dengan volume transaksi tinggi.',
     tags: ['Python', 'Pyrogram', 'Redis'],
     link: 'https://t.me/NokosID_UBOT',
+    bg: '#2d1b4e',
+    text: '#e0d6f0',
+    heading: '#fff',
     delay: 'reveal-d3',
   },
   {
@@ -21,6 +27,9 @@ const projects = [
     desc: 'Solusi manajemen banyak akun Telegram dalam satu bot. Fitur: clear chat, get OTP, ganti 2FA, join grup, kick device, dll. Sistem sewa slot dengan payment gateway — 400+ akun tersimpan.',
     tags: ['Python', 'Pyrogram', 'Redis'],
     link: 'https://t.me/ManageAkunBot',
+    bg: '#1e3a2f',
+    text: '#d0e8dc',
+    heading: '#fff',
     delay: 'reveal-d4',
   },
   {
@@ -29,6 +38,9 @@ const projects = [
     desc: 'Cek ID akun/group/channel Telegram, prediksi tahun pembuatan akun, dan detail lainnya. Gratis — sudah dipakai 5000+ user. Berbasis Python, Pyrogram & MongoDB.',
     tags: ['Python', 'Pyrogram', 'MongoDB'],
     link: 'https://t.me/CekIDinBot',
+    bg: '#3d1f2e',
+    text: '#f0d8e0',
+    heading: '#fff',
     delay: 'reveal-d2',
   },
 ]
@@ -53,15 +65,16 @@ export default function Projects() {
         {projects.map((p, i) => (
           <div
             key={i}
-            className={`bg-[var(--surface)] border-4 border-black rounded-xl brutal-shadow p-4 sm:p-5 brutal-card card-glow reveal ${p.delay}`}
+            className={`border-4 border-black rounded-xl brutal-shadow p-4 sm:p-5 brutal-card card-glow reveal ${p.delay}`}
+            style={{ background: p.bg, color: p.text }}
           >
             <div className="flex items-start gap-3 sm:gap-4">
               <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl border-4 border-black bg-[#8A2BE2] flex items-center justify-center text-white text-base sm:text-lg shrink-0 brutal-shadow-sm">
                 <i className={p.icon}></i>
               </div>
               <div className="min-w-0 flex-1">
-                <h3 className="text-sm sm:text-base font-black uppercase tracking-tight mb-1" style={{ color: 'var(--text)' }}>{p.title}</h3>
-                <p className="font-bold text-[10px] sm:text-xs leading-relaxed" style={{ color: 'var(--text-sec)' }}>{p.desc}</p>
+                <h3 className="text-sm sm:text-base font-black uppercase tracking-tight mb-1" style={{ color: p.heading }}>{p.title}</h3>
+                <p className="font-bold text-[10px] sm:text-xs leading-relaxed" style={{ color: p.text }}>{p.desc}</p>
                 <div className="flex flex-wrap gap-1.5 mt-3">
                   {p.tags.map((t, ti) => (
                     <span

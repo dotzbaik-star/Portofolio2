@@ -13,7 +13,7 @@ export default function About() {
             Saya <strong style={{ color: 'var(--text)' }}>WannOfficial</strong>, seorang developer dari Aceh. Fokus utama saya adalah pengembangan bot Telegram, backend, dan automation — mengubah pekerjaan repetitif menjadi sistem yang berjalan otomatis. Selain itu, saya juga aktif di jual-beli akun Telegram dan mengelola server untuk bot-bot yang berjalan di production.
           </p>
           <p className="font-bold text-xs sm:text-sm leading-relaxed" style={{ color: 'var(--text-sec)' }}>
-            Saya <strong style={{ color: 'var(--text)' }}>self-taught</strong> — belajar dari dokumentasi, trial & error, dan pengalaman langsung menangani proyek. Berbasis di Aceh, bekerja secara remote, dan selalu berusaha menulis kode yang lebih efisien dari sebelumnya.
+            Saya <strong style={{ color: 'var(--text)' }}>self-taught</strong> — belajar dari dokumentasi, trial & error, dan pengalaman langsung menangani proyek. Berbasis di Aceh, bekerja secara remote. Saya juga seorang <strong style={{ color: 'var(--text)' }}>vibe coding developer</strong> — kode yang lahir dari suasana santai, fokus tinggi, dan segelas kopi.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-3 sm:gap-4">

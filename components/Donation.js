@@ -65,9 +65,20 @@ export default function Donation() {
               alt="QRIS"
               className="w-full rounded-xl border-4 border-black"
             />
-            <p className="text-[10px] sm:text-xs font-bold mt-4 text-center" style={{ color: 'var(--text-sec)' }}>
-              Scan QR di atas untuk donasi
-            </p>
+            <div className="flex gap-3 mt-4 justify-center">
+              <button
+                onClick={() => {
+                  const a = document.createElement('a')
+                  a.href = 'https://files.catbox.moe/vm9kwk'
+                  a.download = 'qris-wann.png'
+                  a.target = '_blank'
+                  a.click()
+                }}
+                className="font-bold text-[9px] sm:text-[10px] uppercase bg-[#8A2BE2] text-white border-4 border-black rounded-xl px-4 py-2 brutal-shadow-sm brutal-btn flex items-center gap-1"
+              >
+                <i className="fas fa-download"></i> Download QRIS
+              </button>
+            </div>
           </div>
         </div>
       )}

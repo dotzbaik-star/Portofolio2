@@ -28,7 +28,7 @@ export default function Stats() {
       </div>
 
       <div className="bg-[var(--surface)] border-4 border-brutal rounded-xl brutal-shadow p-3 sm:p-5 mb-4 sm:mb-6 flex items-center justify-center reveal reveal-d2 brutal-card card-glow">
-        <img src="https://github-profile-trophy.vercel.app/?username=wndrzzka&theme=algolia&no-frame=true&row=2&column=4" alt="GitHub Trophies" className="w-full" />
+        <img src="https://github-profile-trophy.vercel.app/?username=wndrzzka&theme=radical&row=2&column=4" alt="GitHub Trophies" className="w-full" />
       </div>
 
       <div className="grid md:grid-cols-2 gap-4 sm:gap-6 reveal reveal-d2">
@@ -41,6 +41,9 @@ export default function Stats() {
       </div>
       <div className="bg-[var(--surface)] border-4 border-brutal rounded-xl brutal-shadow p-3 sm:p-5 mt-4 sm:mt-6 flex items-center justify-center reveal reveal-d3 brutal-card card-glow">
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wndrzzka&layout=compact&theme=radical&langs_count=6&count_private=true" alt="Top Languages" className="w-full max-w-md" />
+      </div>
+      <div className="bg-[var(--surface)] border-4 border-brutal rounded-xl brutal-shadow p-3 sm:p-5 mt-4 sm:mt-6 flex items-center justify-center reveal reveal-d4 brutal-card card-glow">
+        <img src="https://ghchart.rshah.org/8A2BE2/wndrzzka" alt="GitHub Contributions" className="w-full" />
       </div>
     </section>
   )

@@ -61,7 +61,7 @@ export default function Donation() {
               QRIS
             </h3>
             <img
-              src="https://files.catbox.moe/vm9kwk"
+              src="https://files.catbox.moe/z7if5j.jpg"
               alt="QRIS"
               className="w-full rounded-xl border-4 border-black"
             />
@@ -84,7 +84,7 @@ export default function Donation() {
                       URL.revokeObjectURL(a.href)
                     }, 'image/jpeg', 0.95)
                   }
-                  img.src = 'https://files.catbox.moe/vm9kwk'
+                  img.src = 'https://files.catbox.moe/z7if5j.jpg'
                 }}
                 className="font-bold text-[9px] sm:text-[10px] uppercase bg-[#8A2BE2] text-white border-4 border-black rounded-xl px-4 py-2 brutal-shadow-sm brutal-btn flex items-center gap-1"
               >

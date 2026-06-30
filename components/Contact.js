@@ -1,7 +1,7 @@
 const links = [
-  { href: 'https://t.me/WannnKW', bg: '#26A5E4', icon: 'fab fa-telegram-plane', label: 'Telegram', delay: 'reveal-d2' },
-  { href: 'https://www.youtube.com/wannoffc', bg: '#FF0000', icon: 'fab fa-youtube', label: 'YouTube', delay: 'reveal-d2' },
-  { href: 'https://github.com/wndrzzka', bg: '#000000', icon: 'fab fa-github', label: 'GitHub', delay: 'reveal-d3' },
+  { href: 'https://t.me/dotzbaik', bg: '#26A5E4', icon: 'fab fa-telegram-plane', label: 'Telegram', delay: 'reveal-d2' },
+  { href: 'https://www.youtube.com/dotzstore', bg: '#FF0000', icon: 'fab fa-youtube', label: 'YouTube', delay: 'reveal-d2' },
+  { href: 'https://github.com/gada', bg: '#000000', icon: 'fab fa-github', label: 'GitHub', delay: 'reveal-d3' },
 ]
 
 export default function Contact() {

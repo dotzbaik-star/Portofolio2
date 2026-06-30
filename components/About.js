@@ -5,12 +5,12 @@ export default function About() {
         <i className="fas fa-user-circle text-[#8A2BE2] mr-2 sm:mr-3"></i>Tentang
       </h2>
       <p className="text-center font-bold text-[10px] sm:text-xs max-w-lg mx-auto mb-6 sm:mb-10 reveal reveal-d1 uppercase tracking-widest" style={{ color: 'var(--text-muted)' }}>
-        Bot Developer & SysAdmin — based in Aceh
+        Bot Developer & SysAdmin — based in bandung
       </p>
       <div className="grid lg:grid-cols-2 gap-6 sm:gap-8">
         <div className="bg-[var(--surface)] border-4 border-brutal rounded-xl brutal-shadow p-5 sm:p-7 lg:p-9 reveal reveal-d2">
           <p className="font-bold text-xs sm:text-sm leading-relaxed mb-4 sm:mb-5" style={{ color: 'var(--text-sec)' }}>
-            Saya <strong style={{ color: 'var(--text)' }}>WannOfficial</strong>, seorang developer dari Aceh. Fokus utama saya adalah pengembangan bot Telegram, backend, dan automation — mengubah pekerjaan repetitif menjadi sistem yang berjalan otomatis. Selain itu, saya juga aktif di jual-beli akun Telegram dan mengelola server untuk bot-bot yang berjalan di production.
+            Saya <strong style={{ color: 'var(--text)' }}>DOTZBAIK</strong>, seorang developer dari Aceh. Fokus utama saya adalah pengembangan bot Telegram, backend, dan automation — mengubah pekerjaan repetitif menjadi sistem yang berjalan otomatis. Selain itu, saya juga aktif di jual-beli akun Telegram dan mengelola server untuk bot-bot yang berjalan di production.
           </p>
           <p className="font-bold text-xs sm:text-sm leading-relaxed" style={{ color: 'var(--text-sec)' }}>
             Saya <strong style={{ color: 'var(--text)' }}>self-taught</strong> — belajar dari dokumentasi, trial & error, dan pengalaman langsung menangani projek. Saya juga seorang <strong style={{ color: 'var(--text)' }}>vibe coding developer</strong> — memanfaatkan Artificial Intelligent untuk automasi bisnis saya.
